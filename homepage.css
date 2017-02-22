@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Scope+One');
+
+body
+{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+#h1
+
+{
+	text-align:center;
+font-family: 'Bungee Inline';
+font-size: 150px;
+color: black;
+
+}
+
+#h2
+
+{
+background: rgba(255,255,255,0.5);
+font-size:30px;
+font-family: 'Scope One';
+padding-bottom: 10px;
+padding-top: 5px;
+}
+
+.container
+
+{
+	text-align:center;
+}
+
+#breakfastbutton
+
+{
+	border: 4px solid black;
+}
+
+#lunchbutton
+
+{
+	border: 4px solid black;
+}
+
+#dinnerbutton
+
+{
+	border: 4px solid black;
+}
