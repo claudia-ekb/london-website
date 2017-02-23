@@ -3,8 +3,9 @@
 
 header
 {
-    background: url(bg.jpg);
-    background-size: cover;
+    background: url(thinheader.jpg);
+    background-height: auto;
+    background-width: cover;
     float: top;
     position: relative;
 
@@ -13,11 +14,11 @@ header
 #h1
 
 {
-	text-align:center;
+	text-align:left;
 font-family: 'Bungee Inline';
-font-size: 150px;
+font-size: 50px;
 color: black;
-padding-top: 30px;
+padding-top: 10px;
 float:top;
 position: relative;
 
