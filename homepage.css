@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 @import url('https://fonts.googleapis.com/css?family=Scope+One');
 
-body
+header
 {
     background: url(bg.jpg);
     background-size: cover;
+    float: top;
+    position: relative;
+
 }
 
 #h1
@@ -14,6 +17,8 @@ body
 font-family: 'Bungee Inline';
 font-size: 150px;
 color: black;
+float:top;
+position: relative;
 
 }
 
@@ -25,7 +30,7 @@ font-size:30px;
 font-family: 'Scope One';
 padding-bottom: 10px;
 padding-top: 10px;
-border-width: cover;
+text-align: center;
 }
 
 .container
@@ -34,9 +39,6 @@ border-width: cover;
 	text-align:center;
 }
 
-.fullbreakfastbutton a:hover {
-	color: white;
-}
 
 .breakfastbutton
 
@@ -83,16 +85,13 @@ font-family: 'Scope One';
 font-weight: bolder;
 	font-size: 40px;
     position: absolute;
-   top: calc(50% - 24px); 
-   left: 0;
    text-align: center; 
    width: 100%; 
-   opacity:0;
+   opacity:1;
 }
 
-.buttoncaption:hover {
--webkit-opacity: 1;
--moz-opacity: 1;
--o-opacity: 1;
-opacity: 1;
+
+
+body {
+	background-color: #FFE4B5;
 }
