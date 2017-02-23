@@ -24,7 +24,8 @@ background: rgba(255,255,255,0.5);
 font-size:30px;
 font-family: 'Scope One';
 padding-bottom: 10px;
-padding-top: 5px;
+padding-top: 10px;
+border-width: cover;
 }
 
 .container
@@ -33,20 +34,45 @@ padding-top: 5px;
 	text-align:center;
 }
 
-#breakfastbutton
-
-{
-	border: 4px solid black;
+.fullbreakfastbutton a:hover {
+	color: white;
 }
 
-#lunchbutton
+.breakfastbutton
 
 {
 	border: 4px solid black;
+	border-radius: 180px;
+	position: relative;
+
 }
 
-#dinnerbutton
+
+
+.lunchbutton
 
 {
 	border: 4px solid black;
+	border-radius: 180px;
+}
+
+.dinnerbutton
+
+{
+	border: 4px solid black;
+	border-radius: 180px;
+}
+
+.buttoncaption
+
+{
+	color: black;
+font-family: 'Scope One';
+font-weight: bolder;
+	font-size: 40px;
+    position: absolute;
+   top: calc(50% - 24px); 
+   left: 0;
+   text-align: center; 
+   width: 100%; 
 }
