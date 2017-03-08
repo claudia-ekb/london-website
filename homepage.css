@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 @import url('https://fonts.googleapis.com/css?family=Scope+One');
 
-body
+header
 {
     background: url(bg.jpg);
     background-size: cover;
+    float: top;
+    position: relative;
+
 }
 
 #h1
@@ -14,6 +17,9 @@ body
 font-family: 'Bungee Inline';
 font-size: 150px;
 color: black;
+padding-top: 30px;
+float:top;
+position: relative;
 
 }
 
@@ -24,7 +30,8 @@ background: rgba(255,255,255,0.5);
 font-size:30px;
 font-family: 'Scope One';
 padding-bottom: 10px;
-padding-top: 5px;
+padding-top: 10px;
+text-align: center;
 }
 
 .container
@@ -33,20 +40,83 @@ padding-top: 5px;
 	text-align:center;
 }
 
-#breakfastbutton
+
+.breakfastbutton
 
 {
 	border: 4px solid black;
+	border-radius: 180px;
+	position: relative;
+	margin-top: 30px;
+
 }
 
-#lunchbutton
-
-{
-	border: 4px solid black;
+.breakfastbutton:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: center;
+-moz-transform-origin: center;
+-o-transform-origin: center;
+transform-origin: center;
+border: 4px solid black;
 }
 
-#dinnerbutton
+
+
+.lunchbutton
 
 {
 	border: 4px solid black;
+	border-radius: 180px;
+	position: relative;
+	margin-top: 30px;
+}
+
+.lunchbutton:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: center;
+-moz-transform-origin: center;
+-o-transform-origin: center;
+transform-origin: center;
+border: 4px solid black;
+}
+
+.dinnerbutton
+
+{
+	border: 4px solid black;
+	border-radius: 180px;
+	position: relative;
+	margin-top: 30px;
+}
+
+.dinnerbutton:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: center;
+-moz-transform-origin: center;
+-o-transform-origin: center;
+transform-origin: center;
+border: 4px solid black;
+}
+
+
+
+
+body {
+	background-color: #FFE4B5;
+}
+
+.buttonlabels {
+
+font-size:26px;
+font-family: 'Scope One';
+
 }
