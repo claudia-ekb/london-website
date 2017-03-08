@@ -1,0 +1,11 @@
+.jumbotron {
+	min-height: 600px;
+	background-image: url(http://handluggageonly.co.uk/wp-content/uploads/2014/08/circus-restaurant-s.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1 {
+	font-family: 'Bungee Inline';
+	text-align: center;
+	font-size: 70px;
+}
