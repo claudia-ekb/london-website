@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
 @import url('https://fonts.googleapis.com/css?family=Scope+One');
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 header
 {
     background: url(bg.jpg);
     background-size: cover;
-    float: top;
     position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
 }
 
@@ -41,17 +44,18 @@ text-align: center;
 }
 
 
-.breakfastbutton
+.internationalbutton
 
 {
 	border: 4px solid black;
 	border-radius: 180px;
 	position: relative;
-	margin-top: 30px;
+	background-color: rgba(255,255,255,0.5);
+	
 
 }
 
-.breakfastbutton:hover {
+.internationalbutton:hover {
 -webkit-transform: scale(1.25);
 -moz-transform: scale(1.25);
 -o-transform: scale(1.25);
@@ -64,17 +68,19 @@ border: 4px solid black;
 }
 
 
-
-.lunchbutton
+.traditionalbritishbutton
 
 {
 	border: 4px solid black;
 	border-radius: 180px;
 	position: relative;
-	margin-top: 30px;
+	background-color: rgba(255,255,255,0.5);
+	font-family: 'Scope One';
+	
+
 }
 
-.lunchbutton:hover {
+.traditionalbritishbutton:hover {
 -webkit-transform: scale(1.25);
 -moz-transform: scale(1.25);
 -o-transform: scale(1.25);
@@ -86,16 +92,18 @@ transform-origin: center;
 border: 4px solid black;
 }
 
-.dinnerbutton
+.themedbutton
 
 {
 	border: 4px solid black;
 	border-radius: 180px;
 	position: relative;
-	margin-top: 30px;
+	background-color: rgba(255,255,255,0.5);
+	
+
 }
 
-.dinnerbutton:hover {
+.themedbutton:hover {
 -webkit-transform: scale(1.25);
 -moz-transform: scale(1.25);
 -o-transform: scale(1.25);
@@ -107,7 +115,35 @@ transform-origin: center;
 border: 4px solid black;
 }
 
+.vegbutton
 
+{
+	border: 4px solid black;
+	border-radius: 180px;
+	position: relative;
+	background-color: rgba(255,255,255,0.5);
+	
+
+}
+
+.vegbutton:hover {
+-webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: center;
+-moz-transform-origin: center;
+-o-transform-origin: center;
+transform-origin: center;
+border: 4px solid black;
+}
+
+.labels {
+
+	font-family: "Scope One";
+	font-color: black;
+	color:black;
+}
 
 
 body {
@@ -119,4 +155,134 @@ body {
 font-size:26px;
 font-family: 'Scope One';
 
+}
+
+.row {
+
+	padding-top: 30px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+  
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
 }
